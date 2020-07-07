@@ -353,21 +353,17 @@ Scene {
             }
         }
     } //游戏结算界面
-    BackgroundMusic{
+    SoundEffect{//鼓掌音乐
         id:vectory_applause
         source:"../../assets/applause.wav"
         loops: 1
-        autoPlay: false
-        autoLoad: false
     }
-    BackgroundMusic{
+    SoundEffect{//欢呼音乐
         id:vectory_wow
         source: "../../assets/wow.wav"
         loops: 1
-        autoPlay: false
-        autoLoad: false
     }
-    Timer{
+    Timer{//鼓掌计时器
         id:vectory_applause_timer
         interval: 200
         running: false
